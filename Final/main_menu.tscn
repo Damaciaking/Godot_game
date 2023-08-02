@@ -40,4 +40,14 @@ theme_override_font_sizes/font_size = 44
 text = "Start
 "
 
+[node name="QuitButton" type="Button" parent="."]
+offset_left = 487.0
+offset_top = 433.0
+offset_right = 647.0
+offset_bottom = 553.0
+theme_override_font_sizes/font_size = 44
+text = "Quit
+"
+
 [connection signal="pressed" from="StartButton" to="." method="_on_start_button_pressed"]
+[connection signal="pressed" from="QuitButton" to="." method="_on_quit_button_pressed"]

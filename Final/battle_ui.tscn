@@ -1,0 +1,36 @@
+[gd_scene format=3 uid="uid://bbnxyd8ihmuc"]
+
+[node name="Battle_UI" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Attack1_button" type="Button" parent="."]
+layout_mode = 0
+offset_left = 52.0
+offset_top = 537.0
+offset_right = 172.0
+offset_bottom = 597.0
+text = "Attack 1
+"
+
+[node name="Attack2_button" type="Button" parent="."]
+layout_mode = 0
+offset_left = 220.0
+offset_top = 535.0
+offset_right = 340.0
+offset_bottom = 595.0
+text = "Attack 2
+"
+
+[node name="Items_Button" type="Button" parent="."]
+layout_mode = 0
+offset_left = 401.0
+offset_top = 532.0
+offset_right = 521.0
+offset_bottom = 592.0
+text = "Items
+"
